@@ -67,7 +67,7 @@
             <div> 
             <h2 class="form-data-title">Leave your contacts and we will call you back</h2>
             <section class="form-date">
-              <form name="singup_form" class="example-form">
+              <form>
                 <div role="group" class="form-group">
                   <label for="name" 
                     img src="./images/icons/Name.svg" alt="name" class="name-img"
@@ -132,7 +132,7 @@
                     value="agree"
                   />
                   <svg class="icon" width="16" height="16">
-                    <use href="./images/icons/Checkbox.svg#checkbox"></use>
+                    <use href="./images/icons/symbol-checkmark-defs.svg#checkbox"></use>
                   </svg>
                   <span class="service-text">
                     I accept the terms and conditions of the <span class="service-text-blue">Privacy Policy</span>
@@ -577,21 +577,23 @@
             </li>
           </ul>
         </div>
-          <label class="form-group">
-            <h2>Subscribe</h2>
+          <label class="form-group-footer">
+            <h2 class="subscribe-title">Subscribe</h2>
             <input
               type="text"
-              placeholder="Phone*"
-              name="telephone"
-              class="input"
+              placeholder="E-mail" 
+              name="Email"
+              class="footer-email"
               required
             />
-            <span class="label-text">Telephone</span>
-            <button class="footer-bnt">Subscribe
-              <svg class="icon" width="24" height="20">
-                <use href="./images/icons/icon btn footer.svg#sendbtn"></use>
-              </svg>
-            </button>
+            <span>
+              <button class="footer-bnt">
+                <h3 class="footer-btn-text">Subscribe</h3>
+                <svg class="icon" width="24" height="20">
+                  <use href="./images/icons/symbol-send-defs.svg#sendbtn"></use>
+                </svg>
+              </button>
+            </span>
           </label>
     </footer>
     <script>
