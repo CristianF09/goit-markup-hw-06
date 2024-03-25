@@ -646,17 +646,12 @@ ul {
   color: #FFFFFF;
 }
 
-.placeholder-e-mail {
-  position: absolute;
-
-}
-
 .footer-email {
   width: 264px;
   height: 40px;
   top: 140px;
   left: 828px;
-  gap: 0px;
+  gap: 10px;
   border-radius: 4px 0px 0px 0px;
   border: 1px 0px 0px 0px;
   border: 1px solid #FFFFFF;
