@@ -87,6 +87,7 @@ main {
   border-bottom: 4px;
 }
 
+
 .header-contact {
   margin-left: auto;
   display: flex;
@@ -203,7 +204,6 @@ ul {
 .is-hidden {
   visibility: hidden;
   transform: scale(1.1)
-
 }
 
 .modal {
@@ -240,8 +240,6 @@ ul {
   border-color: #0000001A ;
 }
 
-
-
 /* -- Section1 -- */
 
 .container-section ul {
@@ -250,7 +248,6 @@ ul {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
 }
 
 .container-section .section1 {
@@ -533,6 +530,7 @@ ul {
   flex-direction: column;
 }
 
+
 .form-group + .form-group {
   margin-top:  16px;
 }
@@ -571,27 +569,6 @@ ul {
 .btn-send:focus {
   background: #4D5AE5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .service-form {
   display: flex;
@@ -649,9 +626,9 @@ ul {
 }
 
 .checkbox-container {
-        cursor: pointer;
-        width: fit-content;
-        justify-content: center;
+  cursor: pointer;
+  width: fit-content;
+  justify-content: center;
       }
 
       .checkbox-container input[type="checkbox"] {
@@ -693,6 +670,17 @@ ul {
   resize: none
 }
 
+input, textarea {
+  padding: 8px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
 
 .btn-send:hover
 .btn-send:focus {
@@ -701,9 +689,23 @@ ul {
 }
 
 .btn-send {
-  display: flex;
-  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  color: var(--link-color);
+  width: 169px;
+  padding: 16px, 32px;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 10px;
+  outline: none;
+  position: relative;
+  top: 500px;
+  
+  border-radius: 4px;
+  transition: background-color var(--transition);
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
+
 
 .btn-send-text {
   width: 105px;
