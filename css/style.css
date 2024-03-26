@@ -59,7 +59,6 @@ main {
   top: 0px;
 }
 
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -86,7 +85,6 @@ main {
   padding-bottom: 10px;
   border-bottom: 4px;
 }
-
 
 .header-contact {
   margin-left: auto;
@@ -549,6 +547,11 @@ ul {
               0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.form-data-title {
+  display: flex;
+  justify-content: center;
+}
+
 .agree-check {
   display: flex;
   justify-content: center;
@@ -605,21 +608,24 @@ ul {
   align-items: center;
   position: absolute;
   left: 410px;
+  bottom: 45px;;
 }
 
 .btn-send-text {
-  width: 105px;
-  height: 24px;
+  width: 169px;
+  height: 56px;
   gap: 0px;
-  opacity: 0px;
   color: #FFFFFF;
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
   background-color: #404bbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe {
@@ -646,7 +652,7 @@ ul {
   color: #FFFFFF;
 }
 
-.footer-email {
+.E-mail {
   width: 264px;
   height: 40px;
   top: 140px;
@@ -693,6 +699,6 @@ ul {
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 175px;
-  bottom: -25px;
+  left: 290px;
+  bottom: 5px;
 }
